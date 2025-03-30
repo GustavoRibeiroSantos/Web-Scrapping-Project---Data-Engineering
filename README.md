@@ -1,33 +1,33 @@
-# Projeto de Extração Automática e Armazenamento de Dados
+# Automatic Data Extraction and Storage Project
 
-Este é o meu primeiro projeto de Data Engineering, onde desenvolvi uma aplicação em Python para extrair dados de várias páginas da web de forma automática e agendada. Os dados extraídos são então armazenados em um banco de dados local.
+This is my first Data Engineering project, where I have developed a Python application to extract data from various web pages automatically and on a scheduled basis. The extracted data is then stored in a local database.
 
-## Descrição
+## Description
 
-Este projeto foi criado como parte da minha jornada de aprendizado em Data Engineering. Ele demonstra a automação da extração de dados de fontes web e a armazenagem desses dados em um banco de dados para análise posterior.
+This project was created as part of my Data Engineering learning journey. It demonstrates the automation of extracting data from web sources and storing it in a database for later analysis.
 
-## Funcionalidades
+## Features
 
-- [x] API criada em Django
-- [x] Extração de dados de páginas web utilizando bibliotecas como Beautiful Soup e Selenium
-- [x] Agendamento automático das tarefas de extração usando uma ferramenta como o Cron
-- [x] Armazenamento dos dados em um banco de dados local Postgresql
-- [x] Gerenciamento de erros e retentativas para garantir a confiabilidade da extração
+- [x] API created in Django
+- [x] Data extraction from web pages using libraries such as Beautiful Soup and Selenium
+- [x] Automatic scheduling of extraction tasks using a tool like Cron
+- [x] Data storage in a local Postgresql database
+- [x]  Error management and retries to ensure extraction reliability
 
-## Estrutura do Projeto
+## Project structure
 
-- `BookClub/`: Contém o código-fonte da aplicação de extração
-- `static/`: Armazena o chromedriver
-- `first_project_data_engineering/`: Contém os arquivos de configuração do Django
+- `BookClub/`: Contains the source code of the extraction application
+- `static/`: Stores the chromedriver
+- `first_project_data_engineering/`: Contains Django configuration files
 
-## Como Usar
+## How-to use
 
-1. Clone este repositório em sua máquina local.
-2. Navegue até o diretório do projeto.
-3. Configure as páginas da web que você deseja extrair no código-fonte.
-4. Instale as dependências usadas.
-5. Configure o agendamento das tarefas de extração usando ferramentas como o Cron.
-6. Execute o script de extração para começar a coletar dados.
+1. Clone this repository on your local machine.
+2. Navigate to the project directory.
+3. Configure the web pages you want to extract in the source code.
+4. Install the dependencies used.
+5. Set up the scheduling of the extraction tasks using tools such as Cron.
+6. Run the extract script to start collecting data.
 
 ```bash
 git clone https://github.com/GustavoRibeiroSantos/First-Data-analytics-project.git
@@ -35,7 +35,7 @@ cd First-Data-analytics-project
 python manage.py
 ```
 
-## Contribuição
-Contribuições são bem-vindas! Se você encontrar problemas, bugs ou tiver sugestões de melhorias, sinta-se à vontade para abrir problemas ou enviar pull requests.
+## Contributions
+Contributions are welcome! If you find problems, bugs or have suggestions for improvements, feel free to open issues or send pull requests.
 
-### Divirta-se explorando e processando os dados! 📊🔍
+### Have fun exploring and processing the data! 📊🔍
